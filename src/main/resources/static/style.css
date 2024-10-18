@@ -1,0 +1,125 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    padding: 0.5rem 1rem; /* Reduced padding for navbar height */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+footer {
+    background: red;
+    padding: 40px 0;
+}
+
+footer .text-uppercase {
+    font-weight: bold;
+}
+
+footer .text-dark:hover {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+footer .bg-dark {
+    background-color: red !important;
+}
+
+footer .text-white {
+    color: black !important;
+}
+
+/* Logo Area */
+.logo {
+    height: 60px; /* Set logo height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.footer-area {
+    background: black;
+}
+
+.footer-area h5 {
+    color: white !important;
+}
+
+.footer-area p {
+    color: white !important;
+}
+
+.footer-area a {
+    color: white !important;
+}
+
+.theme-button {
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 50px;
+}
+
+.theme-button:hover {
+    background-color: blue;
+    padding: 10px 50px;
+}
+
+.common-theme-button {
+    background-color: red;
+    border: 0;
+    border-radius: 0;
+}
+
+.common-theme-button:hover {
+    background-color: blue;
+}
+
+.hero-left-text {
+    margin-top: 100px;
+}
+
+.card-img-top {
+    height: 180px;
+    padding: 20px;
+}
+
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+     height: 400px;
+}
+
+.cart-img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding-top: 0; /* Removed additional padding */
+    padding-bottom: 0; /* Removed additional padding */
+        padding-left: 0;
+}
+
+/* Make the hero right image bigger */
+.hero-right {
+    max-height: 100vh; /* Set maximum height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.hero-right img {
+    width: 200%; /* Full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
